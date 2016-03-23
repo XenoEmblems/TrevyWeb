@@ -1,8 +1,7 @@
 # Trevaughn's Portfolio Website
 
-Multiple page Bootstrap website that showcases Trevaughn's paintings, drawings, and sculptures. Created seperate pages for image galleries for each category. 
+Multiple page Bootstrap website that showcases Trevaughn Bynums' paintings, drawings, and sculptures. 
+Created seperate pages for Masonry Image galleries for each category. 
 
-To Do: Finish and update contact info based on what Trevaughn would like.
-Finish writing notes.
+I currently am complete with building the website. I'm going to write down notes so my client can easily update the website.
 
-I would like: To put in animations when people go through the site.
