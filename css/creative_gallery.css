@@ -194,7 +194,6 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
-    color: #800080;
 }
 
 header .header-content .header-content-inner h1 {
@@ -465,24 +464,9 @@ fieldset[disabled] .btn-primary.active {
     background: #222;
 }
 
-.modal-dialog {
-    height: auto;
-}
-.img-thumbnail {
-    margin:auto;
-    margin-bottom:6px;
-}
-
-#myModal {
-    width:auto;
-    height:auto;
-}
-
 .modal-content{
   background-color: black;
   color: #fff;
-  text-align: center;
-  vertical-align: center;
 }
 .modal-title {
     font-family: Tahoma, sans-serif;
@@ -490,6 +474,10 @@ fieldset[disabled] .btn-primary.active {
 
 .modal-header{
     background-color: #800080;
+}
+
+.modal-body {
+    text-align:center;
 }
 
 .modal-footer{
@@ -504,6 +492,37 @@ fieldset[disabled] .btn-primary.active {
     color:cornflowerblue;
     opacity:.6;
 }
+
+.thumbnail {
+    background-color:#D15FEE;
+}
+
+.img-thumbnail {
+    margin-bottom: 10px;
+}
+
+.fit {
+    max-height:500px;
+}
+
+/*Masonry*/
+
+#content .box {
+  width: 50%;
+  padding: 6px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 12px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.center {
+    text-align:center;
+    font-weight:700;
+}
+
 img::selection {
     color: #fff;
     background: 0 0;
